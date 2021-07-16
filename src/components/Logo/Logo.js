@@ -1,7 +1,6 @@
 import React from "react";
 import "./Logo.css";
 import logoImg from "../../assets/img/logoImg.png";
-import Swirl from "../../assets/svg/underline.svg";
 
 function Logo() {
   return (

@@ -9,6 +9,7 @@
 }
 
 .logo-line {
+  display: none;
   width: 99%;
   height: 20px;
   border: solid 3px #d2691e;
@@ -60,5 +61,17 @@
   }
   .logo img {
     width: 37px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .logo-text {
+    font-size: 23px;
+  }
+  .logo-line {
+    top: 9px;
+  }
+  .logo img {
+    width: 30px;
   }
 }

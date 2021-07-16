@@ -1,0 +1,259 @@
+#contact-us-section {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 650px;
+  background-color: rgb(255, 250, 240);
+  /* background: url("../../assets/img/contact-us-bg.jpg"); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #008000;
+}
+
+.contact-info-container {
+  width: 100%;
+  height: 350px;
+  margin: 0;
+  padding: 10px 15px;
+  display: grid;
+  align-content: center;
+}
+
+.contact-info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  margin: 22px;
+  padding: 10px 15px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contact-details {
+  line-height: 30px;
+  height: 100%;
+}
+
+.contact-details h2 {
+  padding-bottom: 15px;
+}
+
+.address-outter-container {
+  display: flex;
+}
+
+.address {
+  padding: 12px 0;
+}
+
+.map-info-container {
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+
+.opening-time h2 {
+  padding-bottom: 10px;
+}
+
+.opening-time p {
+  width: 80%;
+  padding-bottom: 19px;
+}
+
+.days {
+  line-height: 21px;
+}
+
+.fa {
+  padding-right: 5px;
+}
+
+.question-form form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.question-input-area {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.question-input-area label {
+  padding-bottom: 10px;
+}
+
+.question-input-area input {
+  outline: 0;
+  padding: 5px;
+  background: transparent;
+  border: 2px green solid;
+  border-radius: 10px;
+}
+
+.question-input-area input:focus {
+  border-color: #008000;
+}
+.question-section-btn {
+  padding: 10px;
+}
+
+.message {
+  outline: 0;
+  background: transparent;
+  border: #008000 2px solid;
+  border-radius: 10px;
+  padding: 5px;
+  resize: none;
+  color: #008000;
+}
+
+.question-section-btn a {
+  text-decoration: none;
+  color: azure;
+  background: green;
+  padding: 9px 14px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .contact-info-container {
+    padding: 5px 10px;
+  }
+  .contact-info {
+    margin: 10px;
+    font-size: 15px;
+    padding: 8px;
+  }
+  .contact-details {
+    line-height: 25px;
+  }
+  .contact-info h2 {
+    font-size: 20px;
+  }
+  .contact-info h3 {
+    font-size: 17px;
+  }
+  .question-input-area {
+    padding: 5px;
+  }
+  .question-input-area label {
+    padding-bottom: 5px;
+  }
+  .question-input-area input {
+    padding: 4px;
+  }
+
+  .message {
+    padding: 0px;
+  }
+  .days {
+    line-height: 16px;
+  }
+  .opening-time p {
+    width: 90%;
+    padding-bottom: 16px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  #contact-us-section {
+    height: 600px;
+  }
+  .contact-info-container {
+    height: 300px;
+  }
+  .contact-info {
+    font-size: 12px;
+  }
+  .contact-info h2 {
+    font-size: 17px;
+  }
+  .contact-details {
+    line-height: 15px;
+  }
+  .contact-details h3 {
+    font-size: 13px;
+  }
+  .contact-details h2 {
+    padding-bottom: 2px;
+  }
+
+  .opening-time h2 {
+    padding-bottom: 17px;
+  }
+  .message {
+    height: 45px;
+  }
+  .address-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .question-form form {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .question-input-area {
+    width: 70%;
+    padding: 3px 0;
+  }
+  .question-input-area input {
+    padding: 1px;
+  }
+  .question-input-area label {
+    padding-bottom: 1px;
+  }
+  .question-section-btn a {
+    padding: 4px 11px;
+  }
+  .days {
+    line-height: 11px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .contact-info {
+    margin: 0px;
+    font-size: 10px;
+  }
+  .contact-info h2 {
+    font-size: 13px;
+  }
+  #contact-us-section {
+    height: 700px;
+  }
+  .contact-info-container {
+    height: 400px;
+  }
+  .opening-time {
+    order: 3;
+  }
+  .contact-info {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .opening-time h2 {
+    padding-bottom: 7px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .contact-info-container {
+    padding: 0px;
+  }
+  .contact-info {
+    grid-gap: 10px;
+  }
+  .contact-info h2 {
+    font-size: 11px;
+  }
+  .contact-details h3 {
+    font-size: 10px;
+  }
+  .days {
+    line-height: 12px;
+  }
+}

@@ -1,0 +1,64 @@
+.logo a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+}
+.logo-container {
+  position: relative;
+}
+
+.logo-line {
+  width: 99%;
+  height: 20px;
+  border: solid 3px #d2691e;
+  border-color: transparent transparent #d2691e transparent;
+  border-radius: 0 0 240px 50%/60px;
+  position: absolute;
+  top: 35px;
+}
+
+.logo-text {
+  font-size: 50px;
+  background: -webkit-linear-gradient(#228b22, #d2691e);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.logo-img {
+  width: 50px;
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .logo-text {
+    font-size: 45px;
+  }
+
+  .logo-line {
+    top: 31px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .logo-text {
+    font-size: 38px;
+  }
+  .logo img {
+    width: 45px;
+  }
+  .logo-line {
+    top: 24px;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .logo-text {
+    font-size: 30px;
+  }
+  .logo-line {
+    top: 16px;
+  }
+  .logo img {
+    width: 37px;
+  }
+}

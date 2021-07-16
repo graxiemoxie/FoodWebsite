@@ -1,0 +1,32 @@
+.btn {
+  background-color: transparent;
+  border: 1px solid #228b22;
+  padding: 10px;
+  color: #228b22;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  color: #fffafa;
+  background-color: #228b22;
+}
+
+@media screen and (max-width: 800px) {
+  .btn {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .btn {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .btn {
+    font-size: 9px;
+  }
+}

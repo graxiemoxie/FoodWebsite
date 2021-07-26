@@ -35,7 +35,7 @@ function ContactUs() {
                   <span>+23424730063</span>
                 </span>
               </div>
-              <div>
+              <div className="contact-email">
                 <span className="mail">
                   <i class="fa fa-envelope"></i>
                   <span>nobodyknows@gmail.com</span>
@@ -45,9 +45,7 @@ function ContactUs() {
           </div>
           <div className="opening-time">
             <h2>Opening Hours</h2>
-            <p className="hidden-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
+
             <div className="days">
               <div className="weekdays">
                 <h4>Weekdays:</h4>
@@ -68,22 +66,36 @@ function ContactUs() {
             <div className="question-form">
               <form>
                 <div className="question-input-area">
-                  <label>Full Name</label>
-                  <input type="text" name="name" id="name" />
+                  <label>
+                    <input
+                      type="text"
+                      name="name"
+                      id="name"
+                      placeholder="Fullname"
+                    />
+                  </label>
                 </div>
                 <div className="question-input-area">
-                  <label>E-mail</label>
-                  <input type="email" name="email" id="email" />
+                  <label>
+                    <input
+                      type="email"
+                      name="email"
+                      id="email"
+                      placeholder="Email"
+                    />
+                  </label>
                 </div>
                 <div className="question-input-area">
-                  <label>Message</label>
-                  <textarea
-                    name="text"
-                    rows="6"
-                    cols="6"
-                    wrap="soft"
-                    className="message"
-                  ></textarea>
+                  <label>
+                    <textarea
+                      name="text"
+                      rows="6"
+                      cols="7"
+                      wrap="soft"
+                      className="message"
+                      placeholder="Message"
+                    ></textarea>
+                  </label>
                 </div>
               </form>
               <div className="question-section-btn">

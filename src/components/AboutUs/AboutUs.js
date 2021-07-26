@@ -1,15 +1,13 @@
 import React from "react";
 import "./AboutUs.css";
-import AboutUsImg from "../../assets/img/about-us-image.jpg";
-import AboutUsImg2 from "../../assets/img/about-us-img2.jpg";
-import AboutUsImg3 from "../../assets/img/about-us-img3.jpg";
+import Slideshow from "../Slideshow/Slideshow";
 
 class AboutUs extends React.PureComponent {
   constructor() {
     super();
     this.state = {
-      images: [AboutUsImg, AboutUsImg2, AboutUsImg3],
-      currentIndex: 0,
+      // images: [AboutUsImg, AboutUsImg2, AboutUsImg3],
+      // currentIndex: 0,
     };
   }
 
@@ -19,7 +17,8 @@ class AboutUs extends React.PureComponent {
         <div className="about-us-slide-container">
           <div className="about-us-slide-inner-container">
             <div className="about-us-image-container">
-              {this.state.images.map((image, index) => {
+              <Slideshow />
+              {/* {this.state.images.map((image, index) => {
                 return (
                   <img
                     src={image}
@@ -28,7 +27,7 @@ class AboutUs extends React.PureComponent {
                     className="about-us-img"
                   />
                 );
-              })}
+              })} */}
             </div>
           </div>
         </div>

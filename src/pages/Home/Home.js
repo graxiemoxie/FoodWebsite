@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.css";
 import NavBar from "../../components/NavBar/NavBar";
 import Welcome from "../../components/WelcomeSection/Welcome";
-import AboutUs from "../../pages/AboutUs/AboutUs";
+import AboutUs from "../../components/AboutUs/AboutUs";
 import MenuSection from "../../components/MenuSection/MenuSection";
 import BookATable from "../../components/BookATableSection/BookATable";
 import ContactUs from "../../components/ContactUs/ContactUs";

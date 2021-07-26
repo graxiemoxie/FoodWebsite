@@ -83,6 +83,9 @@
 }
 
 @media screen and (max-width: 600px) {
+  .welcome-section-container {
+    background-attachment: inherit;
+  }
   .hero-title h1 {
     font-size: 2.2rem;
   }

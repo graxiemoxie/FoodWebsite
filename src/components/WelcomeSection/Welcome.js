@@ -17,7 +17,7 @@ function Welcome() {
           </p>
         </div>
         <div className="hero-section-buttons">
-          <a href="/menu">
+          <a href="/ourMenu">
             <Button label="View Our Menu" />
           </a>
           <a href="/reservation">

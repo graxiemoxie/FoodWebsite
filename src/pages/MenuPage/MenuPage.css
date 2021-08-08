@@ -4,6 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .menu-page-container {
@@ -68,4 +69,28 @@
 
 .menu-search .fa {
   padding-left: 5px;
+}
+
+.menu-page-btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  border-top: rgb(192, 192, 192) 1px solid;
+  margin-top: 20px;
+}
+
+.menu-page-btn-container a {
+  text-decoration: none;
+  color: green;
+  background: #f2f3f4;
+  padding: 20px;
+  font-size: 1.6rem;
+  border: green 1px solid;
+  border-radius: 20px;
+}
+
+.menu-page-btn-container a:hover {
+  color: #f2f3f4;
+  background: #008000;
 }

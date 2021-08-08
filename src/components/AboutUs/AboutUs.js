@@ -5,10 +5,7 @@ import Slideshow from "../Slideshow/Slideshow";
 class AboutUs extends React.PureComponent {
   constructor() {
     super();
-    this.state = {
-      // images: [AboutUsImg, AboutUsImg2, AboutUsImg3],
-      // currentIndex: 0,
-    };
+    this.state = {};
   }
 
   render() {
@@ -18,16 +15,6 @@ class AboutUs extends React.PureComponent {
           <div className="about-us-slide-inner-container">
             <div className="about-us-image-container">
               <Slideshow />
-              {/* {this.state.images.map((image, index) => {
-                return (
-                  <img
-                    src={image}
-                    alt="About Us"
-                    key={index}
-                    className="about-us-img"
-                  />
-                );
-              })} */}
             </div>
           </div>
         </div>

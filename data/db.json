@@ -9,21 +9,21 @@
           "name": "Buffalo Chicken Wings",
           "description": "Perfectly seasoned crispy buffalo wings with creamy blue cheese dip and fresh, crunchy celery",
           "price": "$8.00",
-          "img": "../src/assets/FoodMenuImg/buffalo-wings.jpg"
+          "img": "https://res.cloudinary.com/gracey/image/upload/v1628857068/Savor/buffalo-wings_opyyzr.jpg"
         },
         {
           "id": 2,
           "name": "Chicken Spinach Eggrolls",
           "description": "Specially made with garlic chicken, spinach, gouda cheese, plus a red pepper salsa for dipping",
           "price": "$5.00",
-          "img": "../src/assets/FoodMenuImg/chicken-spinach-egg-rolls.jpg"
+          "img": "https://res.cloudinary.com/gracey/image/upload/v1628857085/Savor/chicken-spinach-egg-rolls_iitjqw.jpg"
         },
         {
           "id": 3,
           "name": "Carrots in a Blanket",
           "description": "Healthy and delicious Veggie appetizer for both kids and adults , paired with classic yellow mustard",
           "price": "$7.00",
-          "img": "../src/assets/FoodMenuImg/roated-carrots-blanket.jpg"
+          "img": "https://res.cloudinary.com/gracey/image/upload/v1628857255/Savor/roated-carrots-blanket_a0h5qh.jpg"
         }
       ]
     },
@@ -35,20 +35,21 @@
           "name": "Classic Cheese Burger",
           "description": "Succulent and juicy cheese burger, stuffed with the right toppings.",
           "price": "$7.00",
-          "img": "../src/assets/FoodMenuImg/classic-cheese-burger.jpg"
+          "img": "https://res.cloudinary.com/gracey/image/upload/v1628857104/Savor/classic-cheese-burger_tctvvi.jpg"
         },
         {
           "id": 5,
           "name": "Crispy Chicken Burger",
           "description": "Well seasoned crispy fried chicken marinated in buttermilk",
           "price": "$6.00",
-          "img": "../src/assets/FoodMenuImg/crispy-chicken-burger.jpg"
+          "img": "https://res.cloudinary.com/gracey/image/upload/v1628857155/Savor/crispy-chicken-burger_xshv1d.jpg"
         },
         {
           "id": 6,
           "name": "Greek Lamb Burger",
           "description": "Homely lamb burger with flavorful Greek twist that takes it to another level of addictive!",
-          "price": "../src/assets/FoodMenuImg/greek-lamb-burger.jpg"
+          "price": "$8.00",
+          "img": "https://res.cloudinary.com/gracey/image/upload/v1628857170/Savor/greek-lamb-burger_apgoeh.jpg"
         }
       ]
     },
@@ -60,21 +61,21 @@
           "name": "Jambalaya Pasta",
           "description": "Nicely made Jambalaya Pasta with chicken, Andouille sausage, shrimp, and all the Cajun flavor.",
           "price": "$13.00",
-          "img": "../src/assets/FoodMenuImg/jambalaya-pasta.jpg"
+          "img": "https://res.cloudinary.com/gracey/image/upload/v1628857218/Savor/jambalaya-pasta_y0wpx4.png"
         },
         {
           "id": 8,
           "name": "Chicken Fried Rice",
           "description": "Delicious long rice with moist and tender chicken with flavorful peas and carrots",
           "price": "$11.00",
-          "img": "../src/assets/FoodMenuImg/chicken-fried-rice.jpg"
+          "img": "https://res.cloudinary.com/gracey/image/upload/v1628857077/Savor/chicken-fried-rice_k0aysn.jpg"
         },
         {
           "id": 9,
           "name": "Tomato Shrimp Pasta",
           "description": "Mouthwatering Pasta made with spicy tomato sauce and shrimp incredibly loaded with flavor.",
           "price": "$10.00",
-          "img": "../src/assets/FoodMenuImg/tomato-shrimp-pasta.jpg"
+          "img": "https://res.cloudinary.com/gracey/image/upload/v1628857271/Savor/tomato-shrimp-pasta_pzltui.jpg"
         }
       ]
     },
@@ -85,21 +86,22 @@
           "id": 10,
           "name": "Ham Sandwich",
           "description": "Ham Sandish made with few fresh herbs mixed with some olive oil.",
-          "price": "../src/assets/FoodMenuImg/ham-sandwich.jpg"
+          "price": "$4.00",
+          "img": "https://res.cloudinary.com/gracey/image/upload/v1628857202/Savor/ham-sandwich_xnmhyz.jpg"
         },
         {
           "id": 11,
           "name": "Steak Sandwich",
           "description": "Juicy steak sandwich, with tender  beef slices, caramelised onion, garlic aioli, mustard, lettuce and tomato",
           "price": "$5.00",
-          "img": "../src/assets/FoodMenuImg/steak-sandwich.jpg"
+          "img": "https://res.cloudinary.com/gracey/image/upload/v1628857268/Savor/steak-sandwich_ovrssy.jpg"
         },
         {
           "id": 12,
           "name": "Veggie Sandwich",
           "description": "Creamy and saucy sandwich packed to the gills with veggies.",
           "price": "$4.00",
-          "img": "../src/assets/FoodMenuImg/veggie-sandwich.jpg"
+          "img": "https://res.cloudinary.com/gracey/image/upload/v1628857276/Savor/veggie-sandwich_x5jpa5.jpg"
         }
       ]
     },
@@ -111,14 +113,14 @@
           "name": "Greek Salad",
           "description": "Healthy salad loaded with lots of fresh veggies, olives and feta and tossed with a tangy lemon-herb vinaigrette.",
           "price": "$4.00",
-          "img": "../src/assets/FoodMenuImg/greek-salad.jpg"
+          "img": "https://res.cloudinary.com/gracey/image/upload/v1628857193/Savor/greek-salad_hrmpq0.jpg"
         },
         {
           "id": 14,
           "name": "Orzo Salad",
           "description": "Incredible orzo-based salad packed with crunchy vegetables and spinach, briny olives, and feta cheese.",
           "price": "$5.00",
-          "img": "../src/assets/FoodMenuImg/orzo-salad.jpg"
+          "img": "https://res.cloudinary.com/gracey/image/upload/v1628857235/Savor/orzo-salad_pmni2n.jpg"
         }
       ]
     },
@@ -130,21 +132,21 @@
           "name": "Glazed Roasted Chicken",
           "description": "Incredible orzo-based salad packed with crunchy vegetables and spinach, briny olives, and feta cheese.",
           "price": "$8.00",
-          "img": "../src/assets/FoodMenuImg/glazed-roasted-chicken.jpg"
+          "img": "https://res.cloudinary.com/gracey/image/upload/v1628857163/Savor/glazed-roasted-chicken_t5hazl.png"
         },
         {
           "id": 16,
           "name": "Grilled Fish",
           "description": "Incredible orzo-based salad packed with crunchy vegetables and spinach, briny olives, and feta cheese.",
           "price": "$6.00",
-          "img": "../src/assets/FoodMenuImg/grilled-fish.jpg"
+          "img": "https://res.cloudinary.com/gracey/image/upload/v1628857198/Savor/grilled-fish_foikzb.jpg"
         },
         {
           "id": 17,
           "name": "Prawn in Batter",
           "description": "Incredible orzo-based salad packed with crunchy vegetables and spinach, briny olives, and feta cheese.",
           "price": "$8.00",
-          "img": "../src/assets/FoodMenuImg/prawn-in-batter.jpg"
+          "img": "https://res.cloudinary.com/gracey/image/upload/v1628857240/Savor/prawn-in-batter_mxlmb5.jpg"
         }
       ]
     },
@@ -156,21 +158,21 @@
           "name": "Andes Mint Cake",
           "description": "Incredible orzo-based salad packed with crunchy vegetables and spinach, briny olives, and feta cheese.",
           "price": "$12.00",
-          "img": "../src/assets/FoodMenuImg/andes-mint-cake.jpg"
+          "img": "https://res.cloudinary.com/gracey/image/upload/v1628857046/Savor/andes-mint-cake_im3ffp.jpg"
         },
         {
           "id": 19,
           "name": "Strawberry Cake",
           "description": "Incredible orzo-based salad packed with crunchy vegetables and spinach, briny olives, and feta cheese.",
           "price": "$8.00",
-          "img": "../src/assets/FoodMenuImg/strawberry-cake.jpg"
+          "img": "https://res.cloudinary.com/gracey/image/upload/v1628857273/Savor/strawberry-cake_bcvxx4.jpg"
         },
         {
           "id": 20,
           "name": "Chocolate Brownies",
           "description": "Incredible orzo-based salad packed with crunchy vegetables and spinach, briny olives, and feta cheese.",
           "price": "$11.00",
-          "img": "../src/assets/FoodMenuImg/chocolate-brownies.jpg"
+          "img": "https://res.cloudinary.com/gracey/image/upload/v1628857095/Savor/chocolate-brownies_sd8ghm.jpg"
         }
       ]
     },
@@ -182,21 +184,21 @@
           "name": "Margarita",
           "description": "Incredible orzo-based salad packed with crunchy vegetables and spinach, briny olives, and feta cheese.",
           "price": "$12.00",
-          "img": "../src/assets/FoodMenuImg/margarita.jpg"
+          "img": "https://res.cloudinary.com/gracey/image/upload/v1628857221/Savor/margarita_j0myml.jpg"
         },
         {
           "id": 22,
           "name": "Pineapple Mango Mimosa",
           "description": "Incredible orzo-based salad packed with crunchy vegetables and spinach, briny olives, and feta cheese.",
           "price": "$12.00",
-          "img": "../src/assets/FoodMenuImg/pineapple-mango-mimosa.jpg"
+          "img": "https://res.cloudinary.com/gracey/image/upload/v1628857238/Savor/pineapple-mango-mimosa_yn9lzg.jpg"
         },
         {
           "id": 23,
           "name": "Soda",
           "description": "Incredible orzo-based salad packed with crunchy vegetables and spinach, briny olives, and feta cheese.",
           "price": "$12.00",
-          "img": "../src/assets/FoodMenuImg/soda.jpg"
+          "img": "https://res.cloudinary.com/gracey/image/upload/v1628857257/Savor/soda_dz3wkt.jpg"
         }
       ]
     }

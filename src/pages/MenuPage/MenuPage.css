@@ -15,9 +15,24 @@
 .menu-page-heading {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   padding: 25px;
   border-bottom: rgb(192, 192, 192) 1px solid;
+}
+.menu-home-btn {
+  text-decoration: none;
+  color: #008000;
+}
+.fa-shopping-cart {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  color: green;
+}
+.cart {
+  text-decoration: none;
 }
 
 .selection-section {
@@ -93,4 +108,10 @@
 .menu-page-btn-container a:hover {
   color: #f2f3f4;
   background: #008000;
+}
+
+.server-info {
+  margin: 10px;
+  color: #008000;
+  font-size: 20px;
 }

@@ -15,9 +15,13 @@ const options = [
 ];
 
 class MenuSearch extends React.Component {
-  state = {
-    selectedOption: null,
-  };
+  constructor() {
+    super();
+    this.state = {
+      selectedOption: null,
+    };
+  }
+
   handleChange = (selectedOption) => {
     this.setState({ selectedOption });
     console.log(`Option selected:`, selectedOption);

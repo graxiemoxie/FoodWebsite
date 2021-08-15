@@ -13,7 +13,7 @@ function ContactUs() {
               <h3>Address</h3>
               <div className="address-outter-container">
                 <span>
-                  <i class="fa fa-map-marker"></i>
+                  <i className="fa fa-map-marker"></i>
                 </span>
                 <span className="address-container">
                   <span>46, Ojo street,</span>
@@ -25,19 +25,19 @@ function ContactUs() {
               <h3>Contact</h3>
               <div>
                 <span className="phone-no">
-                  <i class="fa fa-phone"></i>
+                  <i className="fa fa-phone"></i>
                   <span>+23427207062</span>
                 </span>
               </div>
               <div>
                 <span className="phone-no">
-                  <i class="fa fa-phone"></i>
+                  <i className="fa fa-phone"></i>
                   <span>+23424730063</span>
                 </span>
               </div>
               <div className="contact-email">
                 <span className="mail">
-                  <i class="fa fa-envelope"></i>
+                  <i className="fa fa-envelope"></i>
                   <span>nobodyknows@gmail.com</span>
                 </span>
               </div>

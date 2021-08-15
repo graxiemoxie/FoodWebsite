@@ -3,7 +3,7 @@ import SaladImg from "../assets/img/salad-cover.jpg";
 import SandwishImg from "../assets/img/sandwish-cover.jpg";
 import CakesImg from "../assets/img/cakes-cover.jpg";
 
-export const data = [
+export const menuInfo = [
   {
     id: 1,
     image: DishesImg,

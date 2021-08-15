@@ -1,13 +1,13 @@
 import React from "react";
 import "./MenuSection.css";
-import { data } from "../data";
+import { menuInfo } from "../menuInfo";
 import Button from "../Button/Button";
 
 class MenuSection extends React.PureComponent {
   constructor() {
     super();
     this.state = {
-      items: data,
+      items: menuInfo,
     };
   }
 

@@ -13,11 +13,7 @@ const FoodCard = (props) => {
         <div className="food-price">{price}</div>
       </div>
       <div className="card-btn">
-        <button
-        // onClick={() => addToCart(foodItem)}
-        >
-          buy
-        </button>
+        <button onClick={() => addToCart(foodItem)}>buy</button>
       </div>
     </div>
   );

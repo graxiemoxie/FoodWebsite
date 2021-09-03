@@ -5,7 +5,6 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Loader from "./components/Loader/Loader";
 const Home = lazy(() => import("./pages/Home/Home"));
 const MenuPage = lazy(() => import("./pages/MenuPage/MenuPage"));
-const ViewCart = lazy(() => import("./pages/ViewCart/ViewCart"));
 const Delivery = lazy(() => import("./pages/Delivery/Delivery"));
 
 function App() {
@@ -16,7 +15,6 @@ function App() {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/ourMenu" component={MenuPage} />
-            <Route exact path="/viewcart" component={ViewCart} />
             <Route exact path="/delivery" component={Delivery} />
           </Switch>
         </Router>

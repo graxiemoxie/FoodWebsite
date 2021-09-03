@@ -1,9 +1,8 @@
-import { useState } from "react";
 import "./FoodMenu.css";
 import FoodCard from "../../FoodCard/FoodCard";
 
 const FoodMenu = (props) => {
-  const { menuData, addToCart } = props;
+  const { menuData, addToCart, cartItems } = props;
 
   return (
     <div>
@@ -20,6 +19,7 @@ const FoodMenu = (props) => {
                       foodItem={foodItem}
                       key={foodItem.id}
                       addToCart={addToCart}
+                      cartItems={cartItems}
                     />
                   );
                 })}
